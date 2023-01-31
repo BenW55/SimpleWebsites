@@ -1,2 +1,2 @@
-# CatPhoto
-Simple Cat Photo Website
+# Simple Websites
+WIP
