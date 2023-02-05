@@ -1,0 +1,41 @@
+body{
+    background-image: url(austinnut.png) ;
+    background-size: 150px;
+    width: auto;
+}
+h1,p{
+    text-align:center;
+
+}
+
+h1{
+    padding-top: 0.5%;
+}
+form{
+    padding-left: 2%;
+    text-align: left;
+    background-color: black;
+    color:white;
+    
+}
+fieldset{
+    border:none;
+}
+.newLine{
+    display: block;
+    
+}
+input{
+    background-color: gray;
+    margin: auto;
+}
+::placeholder{
+    color:black;
+}
+.increaselength{
+    min-width:12%;
+}
+select{
+ width: 60%;
+}
+
