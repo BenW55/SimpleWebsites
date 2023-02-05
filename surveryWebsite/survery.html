@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="surveyStyle.css">
+        <title>CodeCampSurvey</title>
+    </head>
+    <body>
+        <h1 id="title">freeCodeCamp Survery Form</h1>
+        <p id="description">Thank you for filling out the survery! This survery will ask you questions about your experience with the platform</p>
+    </body>
+    <fieldset>
+        <form id="survey-form">
+            <div>
+            <label class="newLine" for="name" id="name-label"> Name: <input type="text" name="name" id="name" placeholder="Enter your name" required></label>
+            <label class="newLine" for="email" id="email-label">Enter your email<input type="email" name="email" id="email" placeholder="Enter your email" required></label>
+            <label class="newLine" for="number" id="number-label"> Enter your age<input class="increaselength" placeholder="Enter your age" type="number" name="number" id="number" min="10" max="105" required></label>
+            <label class="newLine" for="reccomend"> What is your favorite feature?
+            </div>
+                <select name="reccomend" id="dropdown"> 
+                    <option selected disabled>Select a value</option>
+                    <option value="1"> Low Cost</option>
+                    <option value="2"> Easy accessibility</option>
+                </select>
+            </label>
+            <label class="newLine"> Would you reccomend these courses to a friend?</label>
+            <input type="radio" name="Yes-No" id="" value="Yes"> <label>Yes</label><br>
+            <input type="radio" name="Yes-No" value="No"><label> No</label>
+            
+        </form>
+    </fieldset>
+</html>
