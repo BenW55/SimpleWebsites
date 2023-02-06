@@ -1,6 +1,6 @@
 body{
     background-image: url(austinnut.png) ;
-    background-size: 150px;
+    background-size: 100px;
     width: auto;
 }
 h1,p{
@@ -14,18 +14,25 @@ h1{
 form{
     padding-left: 2%;
     text-align: left;
-    background-color: black;
+    /*background-color: black;*/
     color:white;
     
 }
 fieldset{
-    border:none;
+    border-color: beige;
+    border-left: none;
+    border-right: none;
+    
 }
+fieldset:first-of-type{
+    border-bottom:none;
+}
+
 .newLine{
     display: block;
     
 }
-input{
+input, textarea{
     background-color: gray;
     margin: auto;
 }
@@ -33,9 +40,10 @@ input{
     color:black;
 }
 .increaselength{
-    min-width:12%;
+    min-width:19%;
 }
 select{
  width: 60%;
 }
+
 
