@@ -13,7 +13,7 @@ p{
     display: inline-block;
     vertical-align: center;
     text-align: center;
-    width: 30%;
+    width: auto;
 }
 img{
     width: 30vh;
@@ -22,4 +22,10 @@ img{
 .discription{
     display: block;
     color:#553D67
+}
+a:visited{
+    color: #553D67;
+}
+a{
+    text-decoration: none;
 }
