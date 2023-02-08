@@ -1,0 +1,31 @@
+body{
+    text-align: center;
+    background-color: #242582;
+}
+legend{
+    color:#F64C72;
+}
+p{
+    color: #553D67;
+}
+.website{
+    margin-top: 50px;
+    display: inline-block;
+    vertical-align: center;
+    text-align: center;
+    width: auto;
+}
+img{
+    width: 30vh;
+    height: 20vh;
+}
+.discription{
+    display: block;
+    color:#553D67
+}
+a:visited{
+    color: #553D67;
+}
+a{
+    text-decoration: none;
+}
