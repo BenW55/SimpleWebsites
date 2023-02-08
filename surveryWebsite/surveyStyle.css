@@ -1,5 +1,5 @@
 body{
-    background-image: url(austinnut.png) ;
+    background-image: url(/SimpleWebsites/Index/austinnut.png) ;
     background-size: 100px;
     width: auto;
 }
@@ -14,7 +14,6 @@ h1{
 form{
     padding-left: 2%;
     text-align: left;
-    /*background-color: black;*/
     color:white;
     
 }
