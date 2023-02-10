@@ -18,6 +18,7 @@ a:visited{
 }
 a{
     text-decoration: none;
+    color:#553D67;
 }
 .boxes{
     display: flex;
