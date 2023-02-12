@@ -1,5 +1,5 @@
 body{
-    background-image: url("/SimpleWebsites/Photos/austinnut.png") ;
+    background-image: url(/SimpleWebsites/Photos/austinnut.png) ;
     background-size: 100px;
     width: auto;
 }
