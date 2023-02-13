@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:900i');
+body{
+    font-family:'Poppins';
+    background-color: black;
+    color:antiquewhite;
+}
+h1 p{
+    font-size: 15px;
+}
+h1{
+    background: linear-gradient(to left, black, gray);
+    border-width: 4px;
+    border-style: solid;
+     border-image: linear-gradient(to right, #FBC638, #6225E6) 1;
+}
+p{
+    background-color: #484255;
+}
+a{
+    color:antiquewhite;
+    text-decoration: none;
+}
+.link {
+    display: flex;
+    padding: 10px 45px;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    color: white;
+    background: #6225E6;
+    transition: 1s;
+    box-shadow: 6px 6px 0 black;
+    transform: skewX(-15deg);
+}
+.link:focus {
+   outline: none; 
+}
+
+.link:hover {
+    transition: 0.5s;
+    box-shadow: 10px 10px 0 #FBC638;
+}
+
+.link span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 0px;
+}
+
+.link:hover  span:nth-child(2) {
+    transition: 0.5s;
+    margin-right: 45px;
+}
+
+  span {
+    transform: skewX(15deg) 
+  }
+
+  span:nth-child(2) {
+    width: 20px;
+    margin-left: 30px;
+    position: relative;
+    top: 12%;
+  }
+  
+/**************SVG****************/
+
+path.one {
+    transition: 0.4s;
+    transform: translateX(-60%);
+}
+
+path.two {
+    transition: 0.5s;
+    transform: translateX(-30%);
+}
+
+.link:hover path.three {
+    animation: color_anim 1s infinite 0.2s;
+}
+
+.link:hover path.one {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.6s;
+}
+
+.link:hover path.two {
+    transform: translateX(0%);
+    animation: color_anim 1s infinite 0.4s;
+}
+
+/* SVG animations */
+
+@keyframes color_anim {
+    0% {
+        fill: white;
+    }
+    50% {
+        fill: #FBC638;
+    }
+    100% {
+        fill: white;
+    }
+}
+.websites{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: relative; 
+}
+.websites img{
+    width: 100%;
+    max-width: 450px;
+    height: 300px;
+    border-radius: 5px;
+   
+}
+
