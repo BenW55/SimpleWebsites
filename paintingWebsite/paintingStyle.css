@@ -249,6 +249,9 @@ body {
     top: 15px;
     left: 30px;
   }
+.fas{
+  font-size:30px;
+}
   footer{
     position: absolute;
     top:98%;
