@@ -17,4 +17,18 @@
 #navbar a:last-child{
     border-bottom: solid 1px;
  }
+body{
+   position:fixed;
+   left:300px;
+   overflow: auto;
 
+}
+.header{
+    border-bottom: solid 2px black;
+    width:90vw;
+    text-align: left;
+    
+}
+p{
+    
+}
